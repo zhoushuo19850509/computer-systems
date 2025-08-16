@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>528</x>
+      <y>594</y>
+      <w>77</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>byte1
+--
+39
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>385</x>
+      <y>99</y>
+      <w>231</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>show_bytes()参数说明
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>638</x>
+      <y>594</y>
+      <w>77</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>byte2
+--
+30
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>748</x>
+      <y>594</y>
+      <w>77</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>byte3
+--
+00
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>858</x>
+      <y>594</y>
+      <w>77</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>byte4
+--
+00
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>528</x>
+      <y>759</y>
+      <w>77</w>
+      <h>44</h>
+    </coordinates>
+    <panel_attributes>指针
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>495</x>
+      <y>539</y>
+      <w>506</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>int(4个字节) 比如12345 
+--
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>561</x>
+      <y>638</y>
+      <w>33</w>
+      <h>143</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>407</x>
+      <y>264</y>
+      <w>297</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>show_bytes(char *s, size_t length)
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>891</x>
+      <y>165</y>
+      <w>297</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>参数1 char *s
+--
+指向数据类型第一个字节的指针
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>891</x>
+      <y>319</y>
+      <w>297</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>参数2 size_t length
+--
+数据类型的长度,比如int(4个字节)
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>693</x>
+      <y>176</y>
+      <w>220</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>180.0;10.0;10.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>693</x>
+      <y>275</y>
+      <w>220</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>180.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>594</x>
+      <y>759</y>
+      <w>418</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+遍历int 4个字节
+每次打印2个16进制字符,展示每个字节的内容</panel_attributes>
+    <additional_attributes>360.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>385</x>
+      <y>440</y>
+      <w>297</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>show_bytes()运行原理(以int为例)
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

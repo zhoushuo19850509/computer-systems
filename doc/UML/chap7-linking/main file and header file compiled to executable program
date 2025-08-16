@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>275</x>
+      <y>319</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>main.c
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>363</x>
+      <y>176</y>
+      <w>231</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>这个UML说明了源代码是如何一步步转化为可执行文件的
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>627</x>
+      <y>319</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>sum.c
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>275</x>
+      <y>418</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>main.i
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>22</x>
+      <y>308</y>
+      <w>165</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>源代码(文本形式)
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>627</x>
+      <y>418</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>sum.i
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>22</x>
+      <y>418</y>
+      <w>165</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>中间文件
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>275</x>
+      <y>528</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>main.s
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>22</x>
+      <y>517</y>
+      <w>165</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>机器码
+通过
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>627</x>
+      <y>528</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>sum.s
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>275</x>
+      <y>649</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>main.o
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>627</x>
+      <y>649</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>sum.o
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>22</x>
+      <y>649</y>
+      <w>165</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>对象文件
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>275</x>
+      <y>759</y>
+      <w>462</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>linker
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>473</x>
+      <y>858</y>
+      <w>110</w>
+      <h>33</h>
+    </coordinates>
+    <panel_attributes>prog
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>22</x>
+      <y>836</y>
+      <w>165</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>可执行文件
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>308</x>
+      <y>341</y>
+      <w>33</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>319</x>
+      <y>440</y>
+      <w>33</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>319</x>
+      <y>550</y>
+      <w>33</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>319</x>
+      <y>671</y>
+      <w>33</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>671</x>
+      <y>341</y>
+      <w>33</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>671</x>
+      <y>440</y>
+      <w>33</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>671</x>
+      <y>550</y>
+      <w>33</w>
+      <h>121</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;90.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>682</x>
+      <y>671</y>
+      <w>33</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>517</x>
+      <y>781</y>
+      <w>33</w>
+      <h>99</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;70.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
