@@ -16,6 +16,7 @@ void show_pointer(void *x);
  * print any data type in byte (hex format)
  * @param start 指向该数据类型的指针
  * @param len 该数据类型的长度
+ * @return void
  */
 void show_bytes(type_pointer start, size_t len){
     size_t i;
