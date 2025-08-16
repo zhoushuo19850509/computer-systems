@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>605</x>
+      <x>814</x>
       <y>792</y>
       <w>77</w>
       <h>55</h>
@@ -19,7 +19,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>473</x>
+      <x>682</x>
       <y>0</y>
       <w>231</w>
       <h>55</h>
@@ -33,7 +33,7 @@ style=wordwrap
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>715</x>
+      <x>924</x>
       <y>792</y>
       <w>77</w>
       <h>55</h>
@@ -48,7 +48,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>825</x>
+      <x>1034</x>
       <y>792</y>
       <w>77</w>
       <h>55</h>
@@ -63,7 +63,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>935</x>
+      <x>1144</x>
       <y>792</y>
       <w>77</w>
       <h>55</h>
@@ -78,7 +78,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>605</x>
+      <x>814</x>
       <y>957</y>
       <w>77</w>
       <h>44</h>
@@ -91,7 +91,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>572</x>
+      <x>781</x>
       <y>737</y>
       <w>506</w>
       <h>132</h>
@@ -105,7 +105,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>638</x>
+      <x>847</x>
       <y>836</y>
       <w>33</w>
       <h>143</h>
@@ -116,7 +116,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>495</x>
+      <x>704</x>
       <y>165</y>
       <w>297</w>
       <h>55</h>
@@ -129,7 +129,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>979</x>
+      <x>1188</x>
       <y>66</y>
       <w>297</w>
       <h>55</h>
@@ -144,7 +144,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>979</x>
+      <x>1188</x>
       <y>220</y>
       <w>297</w>
       <h>55</h>
@@ -159,7 +159,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>781</x>
+      <x>990</x>
       <y>77</y>
       <w>220</w>
       <h>132</h>
@@ -170,7 +170,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>781</x>
+      <x>990</x>
       <y>176</y>
       <w>220</w>
       <h>99</h>
@@ -181,7 +181,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>671</x>
+      <x>880</x>
       <y>957</y>
       <w>418</w>
       <h>55</h>
@@ -194,7 +194,7 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>418</x>
+      <x>627</x>
       <y>407</y>
       <w>297</w>
       <h>55</h>
@@ -208,7 +208,7 @@ style=wordwrap
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>583</x>
+      <x>792</x>
       <y>528</y>
       <w>176</w>
       <h>99</h>
@@ -224,7 +224,7 @@ style=wordwrap
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>814</x>
+      <x>1023</x>
       <y>528</y>
       <w>297</w>
       <h>110</h>
@@ -242,7 +242,7 @@ style=wordwrap
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>561</x>
+      <x>770</x>
       <y>484</y>
       <w>572</w>
       <h>176</h>
@@ -255,12 +255,13 @@ style=wordwrap
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>539</x>
+      <x>748</x>
       <y>1056</y>
       <w>539</w>
       <h>165</h>
     </coordinates>
     <panel_attributes>show_bytes()运行原理详细说明(以int为例)
+--
 1.int包含四个字节(byte)
 2.show_bytes()函数输入参数包含int首个字节的地址
 3.然后有一个指针指向int首个字节
@@ -268,6 +269,48 @@ style=wordwrap
 5.所以指针从int首地址开始循环,每次都往前遍历一个字节;
 6.指针每访问一个字节,就打印这个字节对应的2个16进制值
 6.为啥是两个16进制值呢?因为一个字节包含8bit,一个16进制包含4个bit
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>693</x>
+      <y>1408</y>
+      <w>561</w>
+      <h>286</h>
+    </coordinates>
+    <panel_attributes>1.int(12345)转二进制:
+11000000111001
+
+2.我们把二进制根据4bit为单位拆分
+
+0011 0000 0011 1001
+   3    0    3    9
+
+4.从int转16进制结果来看
+int(12345)的第一个字节是最右边
+从0011 1001
+     3    9
+开始,作为第一个字节.
+从这个顺序来说(从右往左),
+mac系统little-endian小头(从右往左)
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>649</x>
+      <y>1320</y>
+      <w>297</w>
+      <h>55</h>
+    </coordinates>
+    <panel_attributes>大头小头的思考:
 halign=left
 style=wordwrap
 </panel_attributes>
