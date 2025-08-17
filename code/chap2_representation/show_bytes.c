@@ -7,7 +7,8 @@ int main(){
 
     //  0a 00 00 00
     // mac操作系统：big-endian
-    int i = 12345;
+    // int i = 12345;
+    int i = 65;
     printf(">>>>>>>>>>>>show_int \n");
     show_int(i);
 

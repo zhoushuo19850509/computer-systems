@@ -1,4 +1,9 @@
 #include <stdio.h>
+
+
+/**
+ * int 转binary
+*/
 int main() {
    int num, temp, i = 0;
    int arr[20];
