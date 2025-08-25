@@ -1,7 +1,11 @@
 #include <stdio.h>
-
+#include "../show_binary.h"
 
 float sum_elements(float s[], unsigned length );
+
+/**
+ * 演示demo-bug1内存溢出的结果，解释了内存溢出的原理
+*/
 int main(){
 
     unsigned a = 0;
@@ -12,6 +16,8 @@ int main(){
         printf("2 >>> \n");
     }
     printf("a - 1 : %u \n", a -1);
+    show_int_binary(a - 1);
+
 
     float s[5];
     s[0] = 1;
@@ -28,6 +34,7 @@ float sum_elements(float s[], unsigned length ){
     float result = 0;
 
     for(i = 0; i <= length -1; i++){
+        // printf("loop: %d \n" , i);
         result += s[i];
     }
     return result;

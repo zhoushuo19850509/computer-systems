@@ -9,4 +9,7 @@ int main(){
     // 以16进制表示
     printf("print in hex: %.2x \n", i);
 
+    size_t size = sizeof(short);
+    printf("sizeof(short) : %zu \n", size);
+    printf("sizeof(int) : %zu \n", sizeof(int));
 }

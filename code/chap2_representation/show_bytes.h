@@ -11,6 +11,7 @@ void show_bytes(type_pointer start, size_t len);
 void show_int(int x);
 void show_float(float x);
 void show_pointer(void *x);
+void show_short(short x);
 
 /* 
  * print any data type in byte (hex format)
@@ -56,4 +57,12 @@ void show_float(float x){
 //展示 pointer 类型数据，通过byte展示
 void show_pointer(void *x){
     show_bytes( (type_pointer) &x, sizeof(void *));
+}
+
+//展示int类型数据，通过byte展示
+void show_short(short x){
+    // printf("show short: %d \n", x);
+    int mysize = sizeof(x);
+    // printf("size of short : %d \n" ,mysize);
+    show_bytes( (type_pointer) &x, sizeof(x));
 }

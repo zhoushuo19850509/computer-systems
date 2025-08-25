@@ -8,7 +8,7 @@ int main(){
     //  0a 00 00 00
     // mac操作系统：big-endian
     // int i = 12345;
-    int i = 65;
+    int i = 12345;
     printf(">>>>>>>>>>>>show_int \n");
     show_int(i);
 
@@ -34,9 +34,9 @@ int main(){
     short x1 = 12345;
     short nx1 = -12345;
     printf(">>>>>>>>>>>>show positive num : \n");
-    show_int(x1);
+    show_short(x1);
     printf(">>>>>>>>>>>>show negative num : \n");
-    show_int(nx1);
+    show_short(nx1);
 
 }
 

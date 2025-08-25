@@ -8,6 +8,7 @@ void charToBinary(char c, char *binary);
 int main(){
     // 单个字节的转换
     char a = 'A';
+    
     // 以char形式展示
     printf("int char: %c \n", a);
     // 以decimal形式展示 参考ascII

@@ -1,5 +1,9 @@
 #include <stdio.h>
+#include "../show_binary.h"
 
+/**
+ * 展示位数截取的结果
+*/
 int main(){
     printf("hello ...\n");
     int a = 53191;
@@ -12,6 +16,11 @@ int main(){
     int sizeShort = sizeof(short);
     printf("print int size... %d \n", sizeInt);
     printf("print short size... %d \n", sizeShort);
+
+    printf("truncating number show in binary: \n");
+    show_int_binary(a);
+    show_short_binary(b);
+
 }
 
 
