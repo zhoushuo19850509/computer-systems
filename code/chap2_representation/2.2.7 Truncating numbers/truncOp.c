@@ -17,6 +17,9 @@ int main(){
     printf("print int size... %d \n", sizeInt);
     printf("print short size... %d \n", sizeShort);
 
+    /**
+     * 
+    */
     printf("truncating number show in binary: \n");
     show_int_binary(a);
     show_short_binary(b);
