@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>11</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>770</x>
+      <y>308</y>
+      <w>165</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>源文件
+--
+msstore.c
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>374</x>
+      <y>396</y>
+      <w>231</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>gcc编译命令
+--
+gcc -Og -S msstore.c
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>407</x>
+      <y>627</y>
+      <w>165</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>机器码
+--
+msstore.s
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>803</x>
+      <y>913</y>
+      <w>165</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>对象文件(未链接)
+--
+msstore.o
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1287</x>
+      <y>627</y>
+      <w>165</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>可执行文件
+--
+a.out
+halign=left
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>484</x>
+      <y>374</y>
+      <w>396</w>
+      <h>275</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+编译为机器码</panel_attributes>
+    <additional_attributes>10.0;230.0;340.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>869</x>
+      <y>374</y>
+      <w>176</w>
+      <h>561</h>
+    </coordinates>
+    <panel_attributes>
+编译为.o文件(未链接)
+lt=&lt;-</panel_attributes>
+    <additional_attributes>10.0;490.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>902</x>
+      <y>704</y>
+      <w>231</w>
+      <h>77</h>
+    </coordinates>
+    <panel_attributes>gcc编译命令
+--
+gcc -Og -c msstore.c
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>891</x>
+      <y>374</y>
+      <w>495</w>
+      <h>275</h>
+    </coordinates>
+    <panel_attributes>
+
+lt=&lt;-</panel_attributes>
+    <additional_attributes>430.0;230.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1166</x>
+      <y>385</y>
+      <w>407</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>gcc编译命令
+--
+gcc msstore.c
+--
+备注,如果有多个文件,可以直接编译为一个可执行文件:
+gcc -Og -o prog main.c sum.c
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>473</x>
+      <y>693</y>
+      <w>352</w>
+      <h>297</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+反编译</panel_attributes>
+    <additional_attributes>10.0;10.0;300.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>957</x>
+      <y>693</y>
+      <w>451</w>
+      <h>297</h>
+    </coordinates>
+    <panel_attributes>
+
+lt=&lt;-</panel_attributes>
+    <additional_attributes>390.0;10.0;10.0;250.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1155</x>
+      <y>902</y>
+      <w>264</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>gcc编译命令
+--
+对象文件链接为一个可执行文件:
+gcc -Og -o prog msstore.o
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>748</x>
+      <y>1067</y>
+      <w>297</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>反编译.o文件,并以机器码的形式展示
+--
+objdump -S sum.o
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
