@@ -4,8 +4,8 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>770</x>
-      <y>308</y>
+      <x>781</x>
+      <y>220</y>
       <w>165</w>
       <h>77</h>
     </coordinates>
@@ -19,8 +19,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>374</x>
-      <y>396</y>
+      <x>385</x>
+      <y>308</y>
       <w>231</w>
       <h>77</h>
     </coordinates>
@@ -35,8 +35,8 @@ style=wordwrap
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>407</x>
-      <y>627</y>
+      <x>418</x>
+      <y>539</y>
       <w>165</w>
       <h>77</h>
     </coordinates>
@@ -50,10 +50,10 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>803</x>
-      <y>913</y>
+      <x>814</x>
+      <y>825</y>
       <w>165</w>
-      <h>77</h>
+      <h>110</h>
     </coordinates>
     <panel_attributes>对象文件(未链接)
 --
@@ -65,8 +65,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1287</x>
-      <y>627</y>
+      <x>1298</x>
+      <y>539</y>
       <w>165</w>
       <h>77</h>
     </coordinates>
@@ -80,8 +80,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>484</x>
-      <y>374</y>
+      <x>495</x>
+      <y>286</y>
       <w>396</w>
       <h>275</h>
     </coordinates>
@@ -92,8 +92,8 @@ style=wordwrap</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>869</x>
-      <y>374</y>
+      <x>880</x>
+      <y>286</y>
       <w>176</w>
       <h>561</h>
     </coordinates>
@@ -105,8 +105,8 @@ lt=&lt;-</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>902</x>
-      <y>704</y>
+      <x>913</x>
+      <y>616</y>
       <w>231</w>
       <h>77</h>
     </coordinates>
@@ -121,8 +121,8 @@ style=wordwrap
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>891</x>
-      <y>374</y>
+      <x>902</x>
+      <y>286</y>
       <w>495</w>
       <h>275</h>
     </coordinates>
@@ -134,8 +134,8 @@ lt=&lt;-</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1166</x>
-      <y>385</y>
+      <x>1177</x>
+      <y>297</y>
       <w>407</w>
       <h>110</h>
     </coordinates>
@@ -153,8 +153,8 @@ style=wordwrap
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>473</x>
-      <y>693</y>
+      <x>484</x>
+      <y>605</y>
       <w>352</w>
       <h>297</h>
     </coordinates>
@@ -165,8 +165,8 @@ style=wordwrap
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>957</x>
-      <y>693</y>
+      <x>968</x>
+      <y>605</y>
       <w>451</w>
       <h>297</h>
     </coordinates>
@@ -178,8 +178,8 @@ lt=&lt;-</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1155</x>
-      <y>902</y>
+      <x>1188</x>
+      <y>781</y>
       <w>264</w>
       <h>66</h>
     </coordinates>
@@ -195,9 +195,9 @@ style=wordwrap
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>748</x>
-      <y>1067</y>
-      <w>297</w>
+      <x>594</x>
+      <y>638</y>
+      <w>275</w>
       <h>66</h>
     </coordinates>
     <panel_attributes>反编译.o文件,并以机器码的形式展示
@@ -207,5 +207,33 @@ halign=left
 style=wordwrap
 </panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>286</x>
+      <y>825</y>
+      <w>363</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>把机器码文件.s文件,转化为对象文件.o文件
+--
+gcc -c msstore.s -o msstore.o
+halign=left
+style=wordwrap
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>429</x>
+      <y>605</y>
+      <w>407</w>
+      <h>341</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+编译</panel_attributes>
+    <additional_attributes>350.0;290.0;10.0;10.0</additional_attributes>
   </element>
 </diagram>
